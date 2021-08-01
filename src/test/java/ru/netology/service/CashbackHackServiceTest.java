@@ -33,7 +33,7 @@ public class CashbackHackServiceTest {
     @Test
     public void shouldReturn0IfAmountMore1000() {
         CashbackHackService service = new CashbackHackService();
-        int amount = 1100;
+        int amount = 1001;
 
         int actual = service.remain(amount);
 

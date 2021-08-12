@@ -15,7 +15,7 @@ public class CashbackHackServiceTest {
 
         int expected = 1;
 
-        assertEquals(expected,actual);
+        assertEquals(actual,expected);
     }
 
     @Test
@@ -27,7 +27,7 @@ public class CashbackHackServiceTest {
 
         int expected = 400;
 
-        assertEquals(expected,actual);
+        assertEquals(actual,expected);
     }
 
     @Test
@@ -39,8 +39,9 @@ public class CashbackHackServiceTest {
 
         int expected = 0;
 
-        assertEquals(expected,actual);
+        assertEquals(actual,expected);
     }
+    
     @Test
     public void shouldReturn0IfAmountEqual1000() {
         CashbackHackService service = new CashbackHackService();
@@ -50,6 +51,6 @@ public class CashbackHackServiceTest {
 
         int expected = 0;
 
-        assertEquals(expected,actual);
+        assertEquals(actual,expected);
     }
 }
